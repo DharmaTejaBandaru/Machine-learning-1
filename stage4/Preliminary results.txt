@@ -1,0 +1,19 @@
+Linear Regression
+Slope : 0.009
+Intercept : 0.006
+MSE train:  0.998
+MSE test: 1.005
+R^2 train: 0.000
+R^2 test: -0.000
+Decision tree Regression :
+Non linear Regression - Decision Tree Regressor
+MSE train : 0.940
+MSE test: 0.959
+R^2 train: 0.057
+R^2  test: 0.045
+Random forest Regression :
+Non linear Regression - Random forest Regressor
+MSE train : 0.932
+MSE test: 0.954
+R^2 train: 0.066
+R^2  test: 0.050
