@@ -47,6 +47,7 @@ train = pd.read_csv(zf.open('train.csv'), nrows=20000,
 
 X = train['acoustic_data'].values.reshape(-1, 1)
 y = train['time_to_failure'].values.reshape(-1, 1)
+# plot_acc_ttf_data(X, y)  used for plotting data
 sc_x = StandardScaler()
 sc_y = StandardScaler()
 sc_x.fit(X)
